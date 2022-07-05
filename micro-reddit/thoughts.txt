@@ -1,0 +1,28 @@
+
+1. allow users to log into account
+2. comment on links
+
+User Model
+========
+
+* username: string 
+* password: string
+
+
+
+a post belongs to a user 
+Post Model
+=========
+
+* title: string 
+* body: text 
+* user_id: integer
+
+
+a comment belongs to a post
+Comment Model 
+==========
+
+* user_id: integer 
+* post_id: integer
+* body: text
